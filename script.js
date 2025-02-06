@@ -77,3 +77,18 @@ if (!(age >= 20) && age < 30) {
 }*/
 
 //SWITCH OPERATOR
+//Difference between Expression and Statements
+/*if (89 > 34) { //Statement
+    const str = 'Greater number'; //Expression
+}*/
+
+//In template literals, we can insert only expressions, not statements
+
+//Conditional operator
+const age = 27;
+age >= 18 ? console.log("You can do anything you want!") : console.log("Oops! You are just a child");
+
+//or
+const result = age >= 18 ? "🤓" : "👶";
+console.log(result);
+console.log(`I like to drink ${age > 18 ? "wine🍷" : "water💦"}`)
